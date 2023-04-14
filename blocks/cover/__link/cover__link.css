@@ -1,0 +1,11 @@
+.cover__link {
+  max-width: 1184px;
+  min-height: 740px;
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.cover__link:hover {
+  opacity: 0.5;
+}

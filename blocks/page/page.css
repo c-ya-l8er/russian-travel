@@ -1,7 +1,6 @@
 .page {
   max-width: 1280px;
   min-width: 320px;
-  max-height: 6875px;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +10,8 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  -webkit-background-size: cover;
   text-rendering: optimizeLegibility;
   background: #2a2c2f;
+  z-index: 0;
 }
