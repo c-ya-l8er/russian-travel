@@ -29,17 +29,38 @@
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @media screen and (max-width: 1024px) {
+    .header {
+      max-width: 928px;
+      max-height: 52px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      max-width: 720px;
+      max-height: 52px;
+      margin: 28px 24px 0;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .header {
+      max-width: 288px;
+      max-height: 42px;
+      margin: 16px 16px 0;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
     .header {
       max-width: 928px;
       max-height: 52px;
