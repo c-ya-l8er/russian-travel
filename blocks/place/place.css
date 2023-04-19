@@ -27,18 +27,10 @@
 @media screen and (max-width: 600px) {
   .place {
     grid-template-columns: 1fr;
-    column-gap: 28px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .place {
-    max-width: 320px;
-    row-gap: 32px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
     row-gap: 32px;

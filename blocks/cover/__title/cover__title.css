@@ -19,17 +19,20 @@
 
 @media screen and (max-width: 768px) {
   .cover__title {
+    margin: 115px auto 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 115px auto 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
     margin: 33px auto 0;
   }
 }
