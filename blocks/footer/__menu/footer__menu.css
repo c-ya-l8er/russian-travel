@@ -6,12 +6,9 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .footer__menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
     gap: 32px;
+    flex-direction: column;
   }
 }

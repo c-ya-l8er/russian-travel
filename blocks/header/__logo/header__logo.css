@@ -1,7 +1,10 @@
 .header__logo {
+  background-size: 176px;
+  background-image: url(../../../images/header-logo.svg);
+  transition: 0.8s ease-in;
+  background-repeat: no-repeat;
   width: 176px;
   height: 52px;
-  transition: 0.8s ease-in;
 }
 
 .header__logo:hover {
@@ -10,6 +13,7 @@
 
 @media screen and (max-width: 320px) {
   .header__logo {
+    background-size: 142px;
     width: 142px;
     height: 42px;
   }
